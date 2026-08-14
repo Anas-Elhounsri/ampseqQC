@@ -1,0 +1,17 @@
+Package: ampseqQC
+Type: Package
+Title: Quality Control for Amplicon Sequencing Reads
+Version: 0.9.1
+Authors@R: person("Marta", "Ibanez", role = c("aut", "cre"), email = "marta.ibanez@example.org")
+Description: Read-level quality control and primer trimming for amplicon
+    sequencing experiments, with per-sample and per-amplicon summaries.
+License: MIT
+Encoding: UTF-8
+LazyData: true
+Imports:
+    stats (>= 3.5.0),
+    utils (>= 3.5.0),
+    ggplot2 (>= 3.4.0)
+Suggests:
+    testthat (>= 3.0.0)
+RoxygenNote: 7.3.1

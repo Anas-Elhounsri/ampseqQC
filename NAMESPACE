@@ -1,0 +1,3 @@
+export(trim_primers)
+export(per_amplicon_qc)
+importFrom(stats, median)
